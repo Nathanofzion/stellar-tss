@@ -2,15 +2,15 @@ name = "tss-wrangler"
 type = "javascript"
 usage_model = "bundled"
 webpack_config = "webpack.config.js"
-account_id = "ba55b7ae9acfb3ed152103e3497c0752"
+account_id = "106284cf75e1995191ec006d2173e149"
 workers_dev = true
 
 kv_namespaces = [
-   { binding = "META", id = "1959d98949ba4c8aa9c333b836cdc5ca" },
-   { binding = "TX_FUNCTIONS", id = "35d9a95d987b449fa44263f42d366429" },
-   { binding = "TX_FEES", id = "6881d21a900540d9b36aa5c6f9465ea5" },
+   { binding = "META", id = "cbc57c2acdef6590bfe14d1cb0905d9710a63e5a8cb94c9d9072aade8a976c49" },
+   { binding = "TX_FUNCTIONS", id = "1a2b9293d39b4a8398e002286428f1c3" },
+   { binding = "TX_FEES", id = "cdef6590bfe14d1cb0905d9710a63e5a" },
 ]
-vars = { STELLAR_NETWORK = "TESTNET", HORIZON_URL = "https://horizon-testnet.stellar.org", TURRET_ADDRESS = "GB4OYM7TQTJSROWXHOJLKAX2IJ2QN4I6S6GCJH4MGWVTAO5Q5DPNADXX", TURRET_RUN_URL = "https://ylorcf18ii.execute-api.us-east-1.amazonaws.com", TX_FUNCTION_FEE_DAYS_TTL = 180, XLM_FEE_MIN = 1, XLM_FEE_MAX = 10, UPLOAD_DIVISOR = 1000, RUN_DIVISOR = 100000 }
+vars = { STELLAR_NETWORK = "TESTNET", HORIZON_URL = "https://horizon-testnet.stellar.org", TURRET_ADDRESS = "GANTZO3THWWGYTL6KOAWGEUI6ICY3QAQJOYGE67W2VHW4BU7TOMTT7JR", TURRET_RUN_URL = "https://qf8cg180qg.execute-api.us-east-1.amazonaws.com", TX_FUNCTION_FEE_DAYS_TTL = 180, XLM_FEE_MIN = 1, XLM_FEE_MAX = 10, UPLOAD_DIVISOR = 1000, RUN_DIVISOR = 100000 }
 
 [build]
 command = "npm i && npm run build"

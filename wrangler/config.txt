@@ -1,0 +1,6 @@
+[serverlessAdmin]
+region=gb
+output=json
+
+[serverlessAdmin1]
+region=gboutput=json
