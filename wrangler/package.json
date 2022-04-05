@@ -13,7 +13,7 @@
     "buffer": "^6.0.3",
     "cfw-easy-utils": "^1.0.2",
     "lodash": "^4.17.21",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "sha.js": "^2.4.11",
     "stellar-base": "^5.3.0",
     "tiny-request-router": "^1.2.2"
